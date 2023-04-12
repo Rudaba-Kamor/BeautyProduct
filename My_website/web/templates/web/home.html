@@ -1,0 +1,93 @@
+{% load static %}
+
+<!--
+<h3>Hello World!</h3>
+
+-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Body Care</title>
+    <link href = "{% static '/css/main.css' %}"   rel="stylesheet" type = "text/css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
+
+</head>    
+<body>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class ="col-md-3">
+                <div class ="card card-body h-100 border-info" id = "profile-wrapper">
+                    <img id="profile-pic" src ="{% static 'images/product.jpg' %}">
+                    <hr>
+                    <h4>Beauty Product</h4>
+                    <p>Skincare products are products designed to improve the health and appearance of the skin. They can be used to treat a wide range of skin conditions, including dryness, acne, wrinkles, and sun damage.</p>
+                </div>
+            </div>
+
+            <div class = "col-md-9">
+                <div class="card card-body h-100 border-info">
+                <h4>Details</h4>
+            <hr>
+            <p>Skincare products come in many forms, such as cleansers, toners, moisturizers, serums, masks, and exfoliants, and can be formulated for different skin types, such as oily, dry, combination, or sensitive skin.</p>
+             
+            <p>The ingredients used in skincare products vary widely depending on the product's intended use and the skin type it is designed for. Some common ingredients in skincare products include antioxidants, such as vitamin C and E, which can help protect the skin from free radical damage; exfoliants, such as alpha-hydroxy acids (AHAs) and beta-hydroxy acids (BHAs), which help remove dead skin cells and unclog pores; and moisturizers, such as hyaluronic acid and ceramides, which help hydrate and nourish the skin.</p>
+            <p>Incorporating a skincare routine into your daily routine can help improve the health and appearance of your skin. With so many options available, it's important to do your research and choose products that work best for you and your unique skin type and concerns. </p>
+            <ul class="social-links">
+                <li><img class= "social" src="{% static 'images/facebook.png'%}"></li>
+                <li><img class= "social" src="{% static 'images/instagram.jpg'%}"></li>
+                <li><img class= "social" src="{% static 'images/linkedin.jpg'%}"></li>
+                <li><img class= "social" src="{% static 'images/youtube.jpg'%}"></li>
+            </ul>
+
+            
+            </div>
+
+            </div>
+        </div>
+     
+        <br>
+        <div class="row">
+            <div class ="col-md-6">
+                <div class ="card card-body h-100">
+                    <h5>Chosing The Right Product</h5>
+                    <hr>
+                    <p>It's important to choose skincare products that are appropriate for your skin type and address any specific concerns you may have. For example, if you have oily skin, you may want to look for products that are oil-free and contain ingredients like salicylic acid to help control oil production. If you have sensitive skin, you may want to avoid products that contain fragrances or other potential irritants.</p>
+                </div>
+            </div>
+            
+            <div class = "col-md-6">
+                <div class="card card-body h-100">
+                    <h5>Importance</h5>
+                    <hr>
+                    <p>Skincare products can also help prevent damage to the skin by reducing the impact of environmental factors such as pollution, UV rays, and harsh weather conditions. For example, sunscreen can help protect the skin from the harmful effects of UV rays, while moisturizers can help prevent dryness and other forms of damage.</p>   
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class ="col-md-6">
+                <div class ="card card-body h-100">
+                    <h5>Several Categories</h5>  
+                    <hr>
+                    <p>Cleansers: These are products used to remove dirt, oil, and makeup from the skin. They can be in the form of a gel, foam, cream, or oil. </p> 
+                    <p>Toners: These products are used after cleansing to balance the skin's pH and prepare it for the next steps in the skincare routine.</p> 
+                    <p>Moisturizers: These products hydrate and protect the skin by creating a barrier that helps to prevent moisture loss. They can be in the form of a cream, lotion, or gel.</p>
+                </div>
+            
+            </div>
+
+            <div class = "col-md-6">
+                <div class="card card-body h-100">
+                    <h5>Wellness and Skincare</h5>
+                    <hr>
+                    <p>Skin care is the practice of taking care of one's skin to improve its appearance, prevent skin problems, and maintain healthy skin. The skin is the largest organ of the body and serves as a protective barrier against the environment. Proper skin care involves cleaning the skin, protecting it from the sun, and keeping it hydrated.</p>
+                </div>
+            </div>
+        </div>
+        <br>
+    </div> 
+
+</body>
+</html>
